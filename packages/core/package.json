@@ -2,12 +2,13 @@
   "name": "@pandora/core",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "watch": "tsc --watch",
-    "test": "jest",
+    "test": "tsx --test",
     "lint": "eslint 'src/**/*.ts'",
     "format": "prettier --write 'src/**/*.ts'"
   },

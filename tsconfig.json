@@ -1,0 +1,14 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+      "composite": true,
+      "declaration": true,
+      "declarationMap": true,
+      "outDir": "dist",
+      "rootDir": "./",
+      "strict": true
+    },
+    "include": ["packages/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
+  

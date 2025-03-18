@@ -1,0 +1,14 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "rules": {
+      "semi": ["error", "always"],  // Exige un point-virgule en fin de ligne
+      "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
+      "no-console": ["warn", { "allow": ["warn", "error"] }]
+    }
+  }
+  

@@ -3,9 +3,9 @@
 # Task: Initialisation du projet
 - [x] Création du repo Git
 - [x] Initialisation de Node.js + TypeScript
-- [ ] Configuration d’un linter et d’un formateur (ESLint, Prettier)
+- [x] Configuration d’un linter et d’un formateur (ESLint, Prettier)
 # Task: Mise en place de tests unitaires 
-- [ ] mise en place des tests
+- [x] mise en place des tests
 # Task: Génération de pages statiques
 - [ ] Lire des fichiers Markdown et les convertir en HTML
 - [ ] Générer une structure de dossiers simple (/content, /output, /templates)
